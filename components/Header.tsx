@@ -18,14 +18,12 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">About</a>
             <a href="#services" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Services</a>
-            <a href="#work" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Our Work</a>
             <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">Contact</a>
           </nav>
 
           <div className="hidden md:flex space-x-4 items-center">
             <ThemeToggle />
-            <button className="btn-secondary">About Us</button>
-            <button className="btn-primary">Get in Touch</button>
+            <a href="#contact" className="btn-primary">Get in Touch</a>
           </div>
 
           <div className="md:hidden flex items-center space-x-2">
@@ -44,7 +42,6 @@ export default function Header() {
             <nav className="flex flex-col space-y-4">
               <a href="#about" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">About</a>
               <a href="#services" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Services</a>
-              <a href="#work" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Our Work</a>
               <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Contact</a>
             </nav>
           </div>

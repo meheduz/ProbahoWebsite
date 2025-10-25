@@ -1,4 +1,5 @@
 import AnimatedSection from './AnimatedSection'
+import Link from 'next/link'
 
 export default function Work() {
   return (
@@ -33,7 +34,7 @@ export default function Work() {
                   Prototype/Demonstration Project
                 </div>
                 
-                <button className="btn-primary">Learn About Probaho</button>
+                <Link href="/probaho" className="btn-primary">Learn About Probaho</Link>
               </div>
               
               <div className="bg-white dark:bg-gray-700 p-6 rounded-lg">

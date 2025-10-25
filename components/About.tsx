@@ -21,7 +21,7 @@ export default function About() {
           <AnimatedSection animation="slide-in-right" delay={200}>
             <div className="grid grid-cols-2 gap-6">
               <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-white dark:hover:bg-gray-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 floating">
-                <Code className="w-8 h-8 text-primary-600 dark:text-primary-400 mx-auto mb-4 hover:scale-110 transition-transform duration-300 rotating" />
+                <Code className="w-8 h-8 text-primary-600 dark:text-primary-400 mx-auto mb-4 hover:scale-110 transition-transform duration-300" />
                 <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">Modern Technology</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">Latest tools & frameworks</p>
               </div>
@@ -36,7 +36,7 @@ export default function About() {
                 <p className="text-sm text-gray-600 dark:text-gray-300">Direct developer access</p>
               </div>
               <div className="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-white dark:hover:bg-gray-700 hover:shadow-lg transition-all duration-300 hover:-translate-y-2 floating">
-                <DollarSign className="w-8 h-8 text-primary-600 dark:text-primary-400 mx-auto mb-4 hover:scale-110 transition-transform duration-300 animate-spin" />
+                <DollarSign className="w-8 h-8 text-primary-600 dark:text-primary-400 mx-auto mb-4 hover:scale-110 transition-transform duration-300" />
                 <h3 className="font-semibold mb-2 text-gray-900 dark:text-gray-100">Competitive Pricing</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-300">Lower overhead rates</p>
               </div>
