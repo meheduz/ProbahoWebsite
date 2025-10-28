@@ -11,8 +11,9 @@ export default function Header() {
     <header className="bg-white dark:bg-gray-900 shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary-600 dark:text-primary-400">Probaho Solutions</h1>
+          <div className="flex items-center space-x-3">
+            <img src="/logo.png" alt="Nexuvo Technologies" className="h-10 w-10 object-contain" />
+            <h1 className="text-2xl font-bold text-primary-600 dark:text-primary-400">Nexuvo Technologies</h1>
           </div>
           
           <nav className="hidden md:flex space-x-8">

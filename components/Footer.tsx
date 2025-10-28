@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold text-primary-400 dark:text-primary-300 mb-4">Probaho Solutions</h3>
+            <h3 className="text-2xl font-bold text-primary-400 dark:text-primary-300 mb-4">Nexuvo Technologies</h3>
             <p className="text-gray-300 dark:text-gray-400 mb-4 max-w-md">
               A fresh software development team ready to turn your ideas into reality. 
               We bring modern technology, clean code, and dedicated attention to every project.
@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Probaho Solutions. All rights reserved.</p>
+          <p>&copy; 2024 Nexuvo Technologies. All rights reserved.</p>
           <p className="text-sm mt-2">Innovate. Build. Deliver.</p>
         </div>
       </div>

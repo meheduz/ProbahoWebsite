@@ -5,9 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Probaho Solutions – Innovate. Build. Deliver. | Software Development Bangladesh',
-  description: 'Probaho Solutions - Innovate. Build. Deliver. Professional software development services in Bangladesh. Modern web apps, mobile solutions, and custom software development.',
-  keywords: 'Probaho Solutions, software development Bangladesh, web development Dhaka, mobile app development, React Next.js developer, custom software solutions',
+  title: 'Nexuvo Technologies – Innovate. Build. Deliver. | Software Development Bangladesh',
+  description: 'Nexuvo Technologies - Innovate. Build. Deliver. Professional software development services in Bangladesh. Modern web apps, mobile solutions, and custom software development.',
+  keywords: 'Nexuvo Technologies, software development Bangladesh, web development Sylhet, mobile app development, React Next.js developer, custom software solutions',
 }
 
 export default function RootLayout({
